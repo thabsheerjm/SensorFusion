@@ -1,0 +1,84 @@
+# Build artifacts
+/build/
+*.o
+*.out
+*.a
+*.so
+*.exe
+*.dll
+*.dylib
+
+# Compiler generated files
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.manifest
+*.lib
+*.exp
+*.pch
+*.gch
+
+# Debugging files
+*.dSYM/
+*.stackdump
+vgcore.*
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE & Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.log
+*.tmp
+
+# CLion & JetBrains IDEs
+/.idea/
+/cmake-build-debug/
+/cmake-build-release/
+
+# Visual Studio
+*.vcxproj*
+*.sln
+*.ncb
+*.user
+*.suo
+*.filters
+
+# Xcode
+*.xcworkspace/
+*.xcodeproj/
+*.xcuserdata/
+
+# Autotools
+*.in
+*.m4
+aclocal.m4
+autom4te.cache/
+
+# Coverage & Profiling
+*.gcda
+*.gcno
+*.gcov
+
+# Binary output
+bin/
+obj/
+lib/
+
+# Package managers
+.vcpkg/
+conanbuildinfo.txt
+conan.lock
+
+# User-specific files
+*.cache
+*.DS_Store
