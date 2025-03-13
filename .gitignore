@@ -82,3 +82,7 @@ conan.lock
 # User-specific files
 *.cache
 *.DS_Store
+
+# Data 
+*.pcd
+
