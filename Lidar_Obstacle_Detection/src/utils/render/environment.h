@@ -1,9 +1,19 @@
-//Adapted From Udacity Sensor Fusion Nano Degree project
-// 
+//Reused From Udacity Sensor Fusion Nano Degree project
+
+/* \author Aaron Brown */
+// Functions and structs used to render the enviroment
+// such as cars and the highway
+
+
 #ifndef ENVIRONMENT_H
 #define ENVIRONMENT_H
 
-#include "render.h"
+#include <pcl/visualization/pcl_visualizer.h>
+#include <iostream>
+#include <vector>
+#include <string> 
+#include <Eigen/Geometry> 
+
 
 std::vector<Car> initHighway(bool renderScene, pcl::visualization::PCLVisualizer::Ptr& viewer)
 {
@@ -54,6 +64,8 @@ void initCamera(CameraAngle setAngle, pcl::visualization::PCLVisualizer::Ptr& vi
     if(setAngle!=FPS)
         viewer->addCoordinateSystem (1.0);
 }
+
+
 
 
 #endif

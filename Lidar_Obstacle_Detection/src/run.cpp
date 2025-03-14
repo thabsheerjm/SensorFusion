@@ -1,10 +1,10 @@
 //run lidar obstacle detection
 #include "utils/sensors/lidar.h"
-#include "utils/render/render.h"
 #include "utils/processPointClouds/processPointClouds.h"
 #include "utils/processPointClouds/processPointClouds.cpp"
 # include <vtkObject.h>
 #include <filesystem>
+#include "utils/render/render.h"
 #include "utils/render/environment.h"
 
 void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointClouds<pcl::PointXYZI>* pointProcessorI, const pcl::PointCloud<pcl::PointXYZI>::Ptr& inputCloud)
