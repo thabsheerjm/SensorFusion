@@ -15,7 +15,7 @@ link_directories(${PCL_LUIBRARY_DIRS})
 add_definitions(${PCL_DEFNITIONS})
 
 add_executable(run src/run.cpp src/utils/render/render.cpp src/utils/processPointClouds/processPointClouds.cpp)
-target_link_libraries(environment ${PCL_LIBRARIES} stdc++fs)
+target_link_libraries(run ${PCL_LIBRARIES} stdc++fs)
 
 
 
