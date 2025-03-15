@@ -1,10 +1,5 @@
 //Reused From Udacity Sensor Fusion Nano Degree project
 
-/* \author Aaron Brown */
-// Functions and structs used to render the enviroment
-// such as cars and the highway
-
-
 #ifndef ENVIRONMENT_H
 #define ENVIRONMENT_H
 
@@ -64,8 +59,6 @@ void initCamera(CameraAngle setAngle, pcl::visualization::PCLVisualizer::Ptr& vi
     if(setAngle!=FPS)
         viewer->addCoordinateSystem (1.0);
 }
-
-
 
 
 #endif
