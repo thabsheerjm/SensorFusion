@@ -2,6 +2,8 @@
 This repository showcases the projects I've implemented as part of the Udacity Sensor Fusion Nanodegree.
 Following is a list of Sensor Fusion projects from the course and additional implementations. 
 1. Lidar Obstacle Detection
+   
+   <img src="results/fps-lidar.gif" width="300" />
 
 ## How to Run 
 C++17 
