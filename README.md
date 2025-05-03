@@ -4,7 +4,7 @@ Following is a list of Sensor Fusion projects from the course and additional imp
 1. Lidar Obstacle Detection
    
    <img src="results/fps-lidar.gif" width="300" />
-2. Time-to-COllision
+2. Time-to-Collision
    
    <img src="results/ttc.gif" width="300" />
 4. Unscented Kalman Filter
