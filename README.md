@@ -4,9 +4,12 @@ Following is a list of Sensor Fusion projects from the course and additional imp
 1. Lidar Obstacle Detection
    
    <img src="results/fps-lidar.gif" width="300" />
-
-2. Unscented Kalman Filter
-   <img src="results/.gif" width="300" />
+2. Time-to-COllision
+   
+   <img src="results/ttc.gif" width="300" />
+4. Unscented Kalman Filter
+   
+   <img src="results/result.gif" width="300" />
 
 ## How to Run 
 C++17 
